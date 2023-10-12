@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:push/home_page.dart';
 
 void main() {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(const MyApp());
 }
 
