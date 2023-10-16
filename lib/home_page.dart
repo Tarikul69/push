@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String notification = "Waitting for notification ";
+  String notification = "Waitting for notification 000";
   @override
   void initState() {
     // TODO: implement initState

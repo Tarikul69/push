@@ -5,7 +5,7 @@ import 'package:push/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 Future<void> backgroundHandler(RemoteMessage message) async {
-  print("Bangladesh");
+  print("This is a background ");
   print(message.notification!.title);
   print(message.notification!.body);
 }
